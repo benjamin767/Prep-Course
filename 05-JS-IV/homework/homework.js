@@ -73,7 +73,7 @@ function tienePropiedad (objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
-  return objeto[propiedad] === true; 
+  return objeto.hasOwnProperty(propiedad); 
 }
 
 function verificarPassword (usuario, password) {
